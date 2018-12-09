@@ -1,5 +1,6 @@
 body {
     background: gray;
+    font-family: Abel;
 }
 nav {
     width: 100vw;
@@ -35,6 +36,10 @@ ul#nav-links li {
     display: inline;
     margin-right: 50px;
     text-decoration: none;  
+}
+a {
+    text-decoration: none;
+    color: white;
 }
 @media (max-height: 700px) {
     video {
