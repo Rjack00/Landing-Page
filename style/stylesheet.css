@@ -1,0 +1,49 @@
+body {
+    background: gray;
+}
+nav {
+    width: 100vw;
+    height: 50px;
+    background-color: black;
+    color: white;
+    padding: 5px 30px 5px 30px;
+    top: 0; 
+    right: 0;
+    left: 0;
+    margin-bottom: 20px;
+    z-index: 10; 
+    display: flex;
+}
+#logo-name {
+    display: inline;
+    text-align: left;
+    margin-top: 15px;
+}
+#header-img {
+    width: 50px;
+    position: relative;
+    height: 50px;
+    float: left;
+    margin-left: 25px;
+}
+#nav-links {
+    position: absolute;
+    right: 75px;
+}
+ul#nav-links li {
+    
+    display: inline;
+    margin-right: 50px;
+    text-decoration: none;  
+}
+@media (max-height: 700px) {
+    video {
+        width: 220px;
+        height: 140px;
+    }
+}
+video {
+    position: relative;
+    margin-top: 100px;  
+    
+}
