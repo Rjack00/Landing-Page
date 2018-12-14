@@ -14,36 +14,56 @@
 
     <header id="header">
 
+<!-- NAVBAR ///////////////////////// -->
         <nav id="nav-bar" style="position: fixed;">
             
             <img id="header-img" src="https://media.giphy.com/media/uedQ6hQGAIDOE/giphy.gif" alt="Company Logo">
-            <h3 id="logo-name">RJ Developments</h3>
+            <h3 id="logo-name">RJ Development</h3>
            
             <ul id="nav-links">
                 <li>
-                    <a class="nav-link" href="#">Link1</a>
+                    <a class="nav-link" href="#intro">About</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="#">Link2</a>
+                    <a class="nav-link" href="#">Projects</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="#">Link3</a>
+                    <a class="nav-link" href="#video">Video</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#footer">Contact</a>
                 </li>
             </ul>
         </nav>
-
     </header>
 
-    <video id="video" width="320" height="240"  controls>
-        <source src="images/Ip Man - Versus The Northerner.mp4" type="">
-    </video>
+<!-- Introduction ///////////////// -->
+    <div id="intro">
+        <h2>Hi I'm</h2>
+        <h1>Robert Jackson</h1>
+        <h3>Web & Software Developer</h3>
+        <p>A highly dedicated professional with a proven track record of excellence.</p> 
+        <p>Problem Solving, Mentoring, Quality Assurance, Managing, Leading & Exceeding Expectations.</p>
+        <p class="languages">HTML 5, CSS 3, JavaScript, Bootstrap, jQuery, GitHub</p>
+    </div>
+
+<!-- VIDEO //////////////////////// -->
+    <div class="video">
+        <video id="video" width="320" height="240"  controls>
+            <source src="images/Ip Man - Versus The Northerner.mp4" type="">
+        </video>
         <!-- <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/xg9Y6TkGiSA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+    </div>
 
-    <form id="form" action="https://www.freecodecamp.com/email-submit">
-        <input id="email" name="email" type="email" placeholder="Your Email Here">
-        <input id="submit" type="submit">
+<!-- FOOTER ///////////////////////// -->
+    <nav id="footer">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <p>To try freecodecamp submit your email below.</p>
+            <input id="email" name="email" type="email" placeholder="Your Email Here">
+            <input id="submit" type="submit">
 
-    </form>
+        </form>
+    </nav>
 
         <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
